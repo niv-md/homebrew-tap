@@ -1,16 +1,16 @@
 class Niv < Formula
   desc "Keep a folder of notes in sync with a Niv Space, end-to-end encrypted"
   homepage "https://niv.md"
-  version "0.2.13"
+  version "0.2.14"
 
   on_macos do
     on_arm do
-      url "https://releases.niv.md/niv/0.2.13/niv-0.2.13-darwin-arm64"
-      sha256 "6e4e491696de3e560f7e56de10fbaf7e90fc823e4ae009220d72cf241891d28c"
+      url "https://releases.niv.md/niv/0.2.14/niv-0.2.14-darwin-arm64"
+      sha256 "44b893bd90befad0c67c55ba732d666b73e03017d9cc82037d04724c4bd03714"
     end
     on_intel do
-      url "https://releases.niv.md/niv/0.2.13/niv-0.2.13-darwin-x64"
-      sha256 "1e595dfbf48faa0669c1212bdd3360fb9d1bf1ac2e42d584936bc62e5c0ba03e"
+      url "https://releases.niv.md/niv/0.2.14/niv-0.2.14-darwin-x64"
+      sha256 "157b921af8c24f71836070dab49d3fb2dc1ce95cfe561a9547d5321f315b622f"
     end
   end
 
